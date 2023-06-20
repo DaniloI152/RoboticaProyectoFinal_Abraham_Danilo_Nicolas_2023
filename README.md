@@ -21,7 +21,7 @@ brazo inmóvil y solamente al inicio del proceso.<br>
 • Análisis de tiempo manual: Se debe realizar pruebas de trabajo manual utilizando una sola mano, donde
 se pueda identificar el tiempo promedio de alistamiento manual para las combinaciones estudiadas. <br>
 ## Diseño de la herramienta:
-
+Para el diseño de la herramienta en primer lugar se tubo en consideración las dimensiones de las piezas, el valde, la ventosa y el estante, de tal forma que se puedan llevar a cabo cada una las rutinas, se modeló la herramienta en inventor, se propuso realizarla en impresión 3D pero se observó que para más facilidad y una pieza más resistente se podria construir por medio de piezas de MDF 
 
 ## Robot Studio
 
