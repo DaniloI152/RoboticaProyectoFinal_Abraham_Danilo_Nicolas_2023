@@ -25,7 +25,7 @@ En el diseño de la herramienta, se tomaron en cuenta las dimensiones de las pie
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/AbrahamFelipe/RoboticaLab1_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/herramientaInventor.PNG" width="300px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/porta.png" width="300px" >
 </p>
 </div>
 
