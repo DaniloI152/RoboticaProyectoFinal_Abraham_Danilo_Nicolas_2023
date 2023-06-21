@@ -29,6 +29,8 @@ En el diseño de la herramienta, se tomaron en cuenta las dimensiones de las pie
 </p>
 </div>
 
+[Planos de corte de las piezas](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/Piezas2.pdf)
+[Planos de corte de Herramienta](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/plano%20corte.pdf)
 
 ## Robot Studio
 
