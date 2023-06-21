@@ -29,7 +29,6 @@ En el diseño de la herramienta, se tomaron en cuenta las dimensiones de las pie
 </p>
 </div>
 
-<iframe src="https://DaniloI152.github.io/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/" frameborder="0" scrolling="no" width="100%" height="500px"></iframe>
 
 ## Robot Studio
 
