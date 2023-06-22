@@ -149,13 +149,33 @@ Dentro de las rutinas de cada una de las piezas, se configura la activación de 
 </p>
 </div>
 
-Se realiza la implementación de una HMI en el flex pendant, donde se tiene un boton marcha para dar inicio a la rutina, un led de indicación que finalizó la rutina, una descripción de las diferentes configfuraciones de selección de las piesas, un selector para las 4 configuraciones y una imagen que muestra la disposición de las piezas en el estante.
+Se realiza la implementación de una HMI en el flex pendant que fue creada por medio de Screen Maker de robotstudio, donde se tiene un boton marcha para dar inicio a la rutina, un led de indicación que finalizó la rutina, una descripción de las diferentes configfuraciones de selección de las piesas, un selector para las 4 configuraciones y una imagen que muestra la disposición de las piezas en el estante.
 
 <div>
 <p style = 'text-align:center;' align="center">
 <img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/pantalla.png" width="500px" >
 </p>
 </div>
+
+El primer paso del código consiste en llevar al robot a su posición de "home" inicial. Esta posición proporciona una referencia fija para las operaciones subsiguientes.
+
+Después de alcanzar la posición de "home", se espera a que la salida digital "Ini" esté activa utilizando la función WaitDO. Esta espera garantiza que todas las condiciones necesarias estén listas antes de continuar con la ejecución.
+
+Se apaga el LED asociado a la salida digital para asegurarse de que no esté encendido previamente y no interfiera con las siguientes operaciones.
+
+Utilizando la función CallByVar, llama a un procedimiento mediante una variable en este caso el procedimeinto "C#". Esta selección determina una de las cuatro configuraciones de piezas disponibles, identificadas como los procesos C1, C2, C3 y C4. La variable "C#" se utiliza posteriormente en el proceso "sele" para verificar qué configuración ha sido seleccionada.
+
+Dentro del proceso "sele", se utilizan estructuras condicionales (IF) para verificar qué configuración de piezas ha sido seleccionada. Dependiendo de "C#", se ejecutará la rutina correspondiente.
+
+Una vez finalizada la rutina seleccionada, se enciende el LED asociado a la salida digital 3 para indicar que la rutina ha concluido exitosamente.
+
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/main.png" width="500px" >
+</p>
+</div>
+
 
 ## Resultados
 
