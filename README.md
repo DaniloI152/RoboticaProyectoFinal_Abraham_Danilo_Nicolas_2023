@@ -55,6 +55,9 @@ Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 
 [Planos del estante](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/estante.pdf)
 
+## Implementación de las señales digitales
+
+
 ## Robot Studio
 
 Para implementar los modelos en el espacio de trabajo y llevar a cabo la simulación, se tomaron mediciones de las posiciones relativas de los elementos con respecto a los centros del robot. Se observó que las divisiones en el suelo del laboratorio coincidían con las divisiones representadas en el entorno de Robot Studio. Utilizando estas medidas, se ubicaron los elementos en las posiciones adecuadas para realizar la simulación. Este proceso permitió una representación precisa del entorno y aseguró que la simulación reflejara fielmente la disposición física de los elementos en el laboratorio.
@@ -64,6 +67,8 @@ Para implementar los modelos en el espacio de trabajo y llevar a cabo la simulac
 <img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/posiciones.png" width="500px" >
 </p>
 </div>
+
+Para poder llevar a cabo una creacion de las trayectorias de forma correcta que nos evite estar corrigiendo al momento de implementar en el robot real, se realizó una prueba manual donde se dectectaron los problemas que podriamos tener, de tal forma que en la simulación fueran corregidos.
 
 ### Simulación
 ### Código
