@@ -56,7 +56,7 @@ Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 [Planos del estante](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/estante.pdf)
 
 ## Implementación de las señales digitales
-
+Para implementar las señales digitales para la instalacion y control de la valvula fue necesario abrir el trablero que acompaña al manipulador, donde revisando una de las conexiones hacia un bombillo que se controla por las salidas digitales del robot se obtiene la ubicacion dentro de la bornera donde se ubicaria la tierra, con este nodo ubicado se probaron distintos puntos de la bornera con la salida digital 1 y 2 abierta para comprobar en cual de estas el voltaje es de 24 V, con las salidas ya ubicadas se insertan los cables de los motores de la valvula dentro del tablero y se realizan las conexiones respectivas para que las salidas controlen el estado de la valvula 5/2, donde la salida 1 se encarga de cerrar el flujo de aire y la salida 2 abrira el flujo de aire.
 
 ## Robot Studio
 
