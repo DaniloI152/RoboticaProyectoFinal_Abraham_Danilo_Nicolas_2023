@@ -196,7 +196,7 @@ Piezas:
 </p>
 </div>
 
-
+A continuación se muestran los videos con las diferentes configuraciones planteadas:
 
 ## Análisis de tiempos
 
