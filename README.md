@@ -61,7 +61,7 @@ Para la implementación de los modelos al espacio de trabajo y realizar la simul
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/posiciones.png" width="600px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/posiciones.png" width="500px" >
 </p>
 </div>
 
