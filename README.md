@@ -174,7 +174,7 @@ Se define la variable selesctor como PERS num, para que permita la modificación
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/main.png" width="500px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/main2.png" width="500px" >
 </p>
 </div>
 
