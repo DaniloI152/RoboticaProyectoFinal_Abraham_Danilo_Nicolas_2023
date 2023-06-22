@@ -57,6 +57,14 @@ Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 
 ## Robot Studio
 
+Para la implementación de los modelos al espacio de trabajo y realizar la simulación inicialmente se tomaron medidas de las posiciones a las que se encontraban los elementos respecto de los centros del robot, se observó que las diviones en el suelo del laboratorio correspondian las divisiones que se muestran en el suelo de Robot Studio.
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/posiciones.png" width="600px" >
+</p>
+</div>
+
 ### Simulación
 ### Código
 
