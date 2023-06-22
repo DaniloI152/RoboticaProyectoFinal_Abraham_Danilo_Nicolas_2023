@@ -184,14 +184,14 @@ A continuación se muestran la herramienta y las piezas utiliadas para el proyec
 Herramienta:
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/herramientacortada.png" width="500px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/herramientacortada.png" width="300px" >
 </p>
 </div>
 
 Piezas:
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/piezascortadas.png" width="500px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/piezascortadas.png" width="300px" >
 </p>
 </div>
 
