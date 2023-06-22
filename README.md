@@ -85,6 +85,12 @@ En la implementación de los elementos en el espacio de trabajo del robot en Rob
 </p>
 </div>
 
+Como se observa, se tienen puntos para el agarre del balde en la banda y en el piso, también se crean puntos asociados al estante para tomar cada una de las piezas, además, se han incluido puntos adicionales que se encuentran alejados de los elementos mencionados, pero que forman parte del workobject del robot. Estos puntos adicionales tienen como objetivo asegurar transiciones fluidas y seguras entre las diferentes trayectorias, evitando posibles colisiones durante el movimiento del robot. <br>
+
+Se han definido un total de nueve trayectorias distintas para el proceso de manipulación. Seis de estas trayectorias corresponden a cada una de las piezas, y han sido diseñadas de manera que el robot se aproxime al frente del estante de forma lineal. Posteriormente, el robot sigue la trayectoria establecida para acercar la ventosa verticalmente a la pieza. A continuación, se envía una señal de pulso a la salida digital 2 para activar la succión de la ventosa y asegurar la sujeción de la pieza. Luego, se realiza la misma trayectoria en sentido inverso para alejar la herramienta con la pieza sujeta con la ventosa.
+
+Después, el robot se dirige hacia el balde ubicado en el piso. En este punto, se espera durante dos segundos y se envía un pulso a la salida digital 1 para desactivar la succión de la ventosa, permitiendo que la pieza caiga dentro del balde.
+
 ### Código
 
 ## Resultados
