@@ -76,6 +76,15 @@ Con el fin de garantizar la generación precisa de las trayectorias y evitar la 
 </div>
 
 ### Simulación
+
+En la implementación de los elementos en el espacio de trabajo del robot en Robot Studio, se asignó a cada uno de ellos un "workobject". Cada workobject contiene una serie de puntos estratégicamente ubicados que servirán como referencia para la construcción de las trayectorias en la rutina. Estos puntos se definen con el propósito de garantizar un posicionamiento preciso y adecuado de la herramienta del robot en relación con los elementos a manipular. Al crear y asignar estos workobjects, se establece una estructura organizada y coherente que facilita la generación de las trayectorias de manera eficiente y precisa durante la programación y simulación del robot.
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/puntos.png" width="500px" >
+</p>
+</div>
+
 ### Código
 
 ## Resultados
