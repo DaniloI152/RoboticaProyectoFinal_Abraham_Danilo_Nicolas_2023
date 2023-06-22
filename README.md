@@ -57,7 +57,7 @@ Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 
 ## Robot Studio
 
-Para la implementación de los modelos al espacio de trabajo y realizar la simulación inicialmente se tomaron medidas de las posiciones a las que se encontraban los elementos respecto de los centros del robot, se observó que las diviones en el suelo del laboratorio correspondian las divisiones que se muestran en el suelo de Robot Studio.
+Para implementar los modelos en el espacio de trabajo y llevar a cabo la simulación, se tomaron mediciones de las posiciones relativas de los elementos con respecto a los centros del robot. Se observó que las divisiones en el suelo del laboratorio coincidían con las divisiones representadas en el entorno de Robot Studio. Utilizando estas medidas, se ubicaron los elementos en las posiciones adecuadas para realizar la simulación. Este proceso permitió una representación precisa del entorno y aseguró que la simulación reflejara fielmente la disposición física de los elementos en el laboratorio.
 
 <div>
 <p style = 'text-align:center;' align="center">
