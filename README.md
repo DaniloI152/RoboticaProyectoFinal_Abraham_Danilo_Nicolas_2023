@@ -129,11 +129,11 @@ Ya con las trayectorias creadas solo se debian crear las rutinas organizandolas 
 
 En el código implementado, se han desarrollado cuatro procesos para la ejecución de las rutinas que contienen 4 configuraciones de piezas diferentes , estos procesos internamente están organizados de manera secuencial, siguiendo una estructura bien definida.
 
-En primer lugar se lleva el robot a la posición de "home" o posición inicial, una vez alcanzada esta posición, el siguiente paso es tomar el balde de la banda transportadora y depositarlo en el piso.
+En primer lugar se lleva el robot a la posición de "home" o posición inicial (Pinicial), una vez alcanzada esta posición, el siguiente paso es tomar el balde de la banda transportadora y depositarlo en el piso (Balde).
 
-Luego se encarga de recoger tres piezas diferentes y depositarlas en el balde ubicado en el piso. Para ello, se ejecutan las rutinas de trayectorias correspondientes de forma secuencial, asegurando el correcto posicionamiento y sujeción de cada pieza antes de depositarla en el balde.
+Luego se encarga de recoger tres piezas diferentes y depositarlas en el balde ubicado en el piso (Pieza_). Para ello, se ejecutan las rutinas de trayectorias correspondientes de forma secuencial, asegurando el correcto posicionamiento y sujeción de cada pieza antes de depositarla en el balde.
 
-Posteriormente, se transporta el balde desde el piso hasta la banda transportadora, finalmente, se regresa el robot a la posición de "home" una vez completadas todas las tareas anteriores, esta posición de "home" sirve como referencia para futuras operaciones y permite que el robot esté listo para realizar nuevas tareas.
+Posteriormente, se transporta el balde desde el piso hasta la banda transportadora (Fin), finalmente, se regresa el robot a la posición de "home" una vez completadas todas las tareas anteriores (Pinicial), esta posición de "home" sirve como referencia para futuras operaciones y permite que el robot esté listo para realizar nuevas tareas.
 
 <div>
 <p style = 'text-align:center;' align="center">
