@@ -94,7 +94,7 @@ Como se observa, se tienen puntos para el agarre del balde en la banda y en el p
 Se han definido un total de nueve trayectorias distintas para el proceso de manipulación. Seis de estas trayectorias corresponden a cada una de las piezas, y han sido diseñadas de manera que el robot se aproxime al frente del estante de forma lineal. Posteriormente, el robot sigue la trayectoria establecida para acercar la ventosa verticalmente a la pieza. A continuación, se envía una señal de pulso a la salida digital 2 para activar la succión de la ventosa y asegurar la sujeción de la pieza. Luego, se realiza la misma trayectoria en sentido inverso para alejar la herramienta con la pieza sujeta con la ventosa.
 
 
-Después, el robot se dirige hacia el balde ubicado en el piso. En este punto, se espera durante dos segundos y se envía un pulso a la salida digital 1 para desactivar la succión de la ventosa, permitiendo que la pieza caiga dentro del balde.
+Después, el robot se dirige hacia el balde ubicado en el piso. En este punto, se espera durante dos segundos y se envía un pulso a la salida digital 1 para desactivar la succión de la ventosa, permitiendo que la pieza caiga dentro del balde. (Nombre de las trayectorias: PiezaA, PiezaB, PiezaC, PiezaD, PiezaE y PiezaF)
 
 
 <div>
@@ -105,9 +105,9 @@ Después, el robot se dirige hacia el balde ubicado en el piso. En este punto, s
 
 
 Las tres trayectorias corresponden a: <br>
-Un punto incial para tener la posicion de home del robot y poder llevarlo a esta posición en cualquier momento. <br>
+Un punto incial para tener la posicion de home del robot y poder llevarlo a esta posición en cualquier momento. (Nombre de la trayectoria: Pinicial) <br>
 
-La trayectoria de la toma del balde de la banda y dejarlo en el piso
+La trayectoria de la toma del balde de la banda y dejarlo en el piso (Nombre de la trayectoria: Balde)
 
 <div>
 <p style = 'text-align:center;' align="center">
@@ -115,7 +115,7 @@ La trayectoria de la toma del balde de la banda y dejarlo en el piso
 </p>
 </div>
 
-La trayectoria final de tomar el balde del piso despues de haber dejado las piezas dentro de el y llevarlo a la banda transportadora
+La trayectoria final de tomar el balde del piso despues de haber dejado las piezas dentro de el y llevarlo a la banda transportadora (Nombre de la trayectoria: Fin)
 
 <div>
 <p style = 'text-align:center;' align="center">
@@ -127,7 +127,21 @@ Ya con las trayectorias creadas solo se debian crear las rutinas organizandolas 
 
 ### Código
 
-Para el código, con las rutinas previamente creadas, se crearon 
+En el código implementado, se han desarrollado cuatro procesos para la ejecución de las rutinas de trayectorias previamente definidas, estos procesos están organizados de manera secuencial, siguiendo una estructura bien definida.
+
+El primer proceso consiste en llevar el robot a la posición de "home" o posición inicial. Una vez alcanzada esta posición, el siguiente paso es tomar el balde de la banda transportadora y depositarlo en el piso.
+
+El segundo proceso se encarga de recoger tres piezas diferentes y depositarlas en el balde ubicado en el piso. Para ello, se ejecutan las rutinas de trayectorias correspondientes de forma secuencial, asegurando el correcto posicionamiento y sujeción de cada pieza antes de depositarla en el balde.
+
+Posteriormente, el tercer proceso se encarga de transportar el balde desde el piso hasta la banda transportadora. Esto implica seguir una trayectoria específica para llevar el balde a su destino final.
+
+Finalmente, el cuarto proceso se encarga de regresar el robot a la posición de "home" una vez completadas todas las tareas anteriores. Esta posición de "home" sirve como referencia para futuras operaciones y permite que el robot esté listo para realizar nuevas tareas.
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriafinal.png" width="600px" >
+</p>
+</div>
 
 ## Resultados
 
