@@ -149,6 +149,14 @@ Dentro de las rutinas de cada una de las piezas, se configura la activación de 
 </p>
 </div>
 
+Se realiza la implementación de una HMI en el flex pendant, donde se tiene un boton marcha para dar inicio a la rutina, un led de indicación que finalizó la rutina, una descripción de las diferentes configfuraciones de selección de las piesas, un selector para las 4 configuraciones y una imagen que muestra la disposición de las piezas en el estante.
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/pantalla.png" width="500px" >
+</p>
+</div>
+
 ## Resultados
 
 ## Análisis de tiempos
