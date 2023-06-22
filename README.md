@@ -180,6 +180,23 @@ Se define la variable selesctor como PERS num, para que permita la modificación
 
 ## Resultados
 
+A continuación se muestran la herramienta y las piezas utiliadas para el proyecto.
+Herramienta:
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/herramientacortada.png" width="500px" >
+</p>
+</div>
+
+Piezas:
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/piezascortadas.png" width="500px" >
+</p>
+</div>
+
+
+
 ## Análisis de tiempos
 
 ### Proceso manual
