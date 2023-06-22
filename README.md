@@ -127,15 +127,13 @@ Ya con las trayectorias creadas solo se debian crear las rutinas organizandolas 
 
 ### Código
 
-En el código implementado, se han desarrollado cuatro procesos para la ejecución de las rutinas de trayectorias previamente definidas, estos procesos están organizados de manera secuencial, siguiendo una estructura bien definida.
+En el código implementado, se han desarrollado cuatro procesos para la ejecución de las rutinas que contienen 4 configuraciones de piezas diferentes , estos procesos internamente están organizados de manera secuencial, siguiendo una estructura bien definida.
 
-El primer proceso consiste en llevar el robot a la posición de "home" o posición inicial. Una vez alcanzada esta posición, el siguiente paso es tomar el balde de la banda transportadora y depositarlo en el piso.
+En primer lugar se lleva el robot a la posición de "home" o posición inicial, una vez alcanzada esta posición, el siguiente paso es tomar el balde de la banda transportadora y depositarlo en el piso.
 
-El segundo proceso se encarga de recoger tres piezas diferentes y depositarlas en el balde ubicado en el piso. Para ello, se ejecutan las rutinas de trayectorias correspondientes de forma secuencial, asegurando el correcto posicionamiento y sujeción de cada pieza antes de depositarla en el balde.
+Luego se encarga de recoger tres piezas diferentes y depositarlas en el balde ubicado en el piso. Para ello, se ejecutan las rutinas de trayectorias correspondientes de forma secuencial, asegurando el correcto posicionamiento y sujeción de cada pieza antes de depositarla en el balde.
 
-Posteriormente, el tercer proceso se encarga de transportar el balde desde el piso hasta la banda transportadora. Esto implica seguir una trayectoria específica para llevar el balde a su destino final.
-
-Finalmente, el cuarto proceso se encarga de regresar el robot a la posición de "home" una vez completadas todas las tareas anteriores. Esta posición de "home" sirve como referencia para futuras operaciones y permite que el robot esté listo para realizar nuevas tareas.
+Posteriormente, se transporta el balde desde el piso hasta la banda transportadora, finalmente, se regresa el robot a la posición de "home" una vez completadas todas las tareas anteriores, esta posición de "home" sirve como referencia para futuras operaciones y permite que el robot esté listo para realizar nuevas tareas.
 
 <div>
 <p style = 'text-align:center;' align="center">
