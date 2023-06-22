@@ -1,0 +1,236 @@
+MODULE Module1
+    CONST robtarget Inicio:=[[603.166153135,63.386,625.44355923],[0.5,0,0.866025404,0],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_10:=[[153.359,260.589,66.447],[0.5,0.5,0.5,-0.5],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20:=[[103.359,260.589,66.447],[0.5,0.5,0.5,-0.5],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20_2:=[[103.359,170.589,66.447],[0.5,0.5,0.5,-0.5],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20_2_2:=[[53.359,170.589,66.447],[0.5,0.5,0.5,-0.5],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20_2_2_2:=[[53.359,220.589,66.447],[0.5,0.5,0.5,-0.5],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_10_2:=[[303.359,-337.447,490.589],[0,0.707106781,0.707106781,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_10_2_2:=[[453.359,-187.447,552.511282222],[0,0.707106781,0.707106781,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_30:=[[52.475,260.316,52.32],[0.5,0.5,-0.5,0.5],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40:=[[52.475,170.316,52.32],[0.5,0.5,-0.5,0.5],[1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_2:=[[2.475,170.316,52.32],[0.5,0.5,-0.5,0.5],[1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_2_2:=[[2.475,220.316,52.32],[0.5,0.5,-0.5,0.5],[1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget AATarget_50:=[[300,263.366,215.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Apieza_1_2:=[[245,134.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Apieza_1:=[[145,134.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Apieza_2:=[[45,134.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Apieza_2_2:=[[45,134.366,334.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Apieza_1_3:=[[145,134.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_2_2_2:=[[132.475,130.316,52.32],[0.5,0.5,-0.5,0.5],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Bpieza_1_2_3:=[[245,384.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Bpieza_1_3_3:=[[145,384.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Bpieza_2_4:=[[45,384.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Bpieza_2_2_3:=[[45,384.366,334.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Bpieza_1_5:=[[145,384.366,354.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Cpieza_1_2_3_2:=[[245,384.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Cpieza_1_3_3_2:=[[145,384.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Cpieza_2_4_2:=[[45,384.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Cpieza_2_2_3_2:=[[45,384.366,192.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Cpieza_1_5_2:=[[145,384.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_2_2_3:=[[2.475,220.316,52.32],[0.5,0.5,-0.5,0.5],[1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_2_3:=[[2.475,170.316,52.32],[0.5,0.5,-0.5,0.5],[1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_3:=[[52.475,170.316,52.32],[0.5,0.5,-0.5,0.5],[1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_30_2:=[[52.475,260.316,52.32],[0.5,0.5,-0.5,0.5],[1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20_2_2_2_2:=[[53.359,220.589,66.447],[0.5,0.5,0.5,-0.5],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20_2_2_3:=[[53.359,170.589,66.447],[0.5,0.5,0.5,-0.5],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20_2_3:=[[103.359,170.589,66.447],[0.5,0.5,0.5,-0.5],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20_3:=[[103.359,260.589,66.447],[0.5,0.5,0.5,-0.5],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_10_3:=[[153.359,260.589,66.447],[0.5,0.5,0.5,-0.5],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_2_2_2UP:=[[132.475,230.316,52.32],[0.5,0.5,-0.5,0.5],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Dpieza_1_2_3_2_2:=[[245,384.366,72.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Dpieza_1_3_3_2_2:=[[145,384.366,72.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Dpieza_2_4_2_2:=[[45,384.366,72.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Dpieza_2_2_3_2_2:=[[45,384.366,52.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Dpieza_1_5_2_2:=[[145,384.366,72.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Epieza_1_2_4:=[[245,134.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Epieza_1_3_4:=[[145,134.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Epieza_2_5:=[[45,134.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Epieza_2_2_4:=[[45,134.366,192.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Epieza_1_6:=[[145,134.366,212.802],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Fpieza_1_2_4_2:=[[245,134.366,72.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Fpieza_1_3_4_2:=[[145,134.366,72.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Fpieza_2_5_2:=[[45,134.366,72.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Fpieza_2_2_4_2:=[[45,134.366,52.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Fpieza_1_6_2:=[[145,134.366,72.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+   !Variables
+    PERS num selector:=2;
+ 
+    PROC Main()
+        Pinicial;
+        WaitDO Ini,1;
+        SetDO DO_03,0;
+        CallByVar "C",selector;
+        !tpreadnum selector, "Elige una configuración de piezas (1-4)";
+        sele;
+        SetDO DO_03,1;
+    ENDPROC
+    
+    PROC sele()
+        IF selector=1 THEN C1; ENDIF
+        IF selector=2 THEN C2; ENDIF
+        IF selector=3 THEN C3; ENDIF
+        IF selector=4 THEN C4; ENDIF
+    ENDPROC
+    
+    PROC C1()
+        Pinicial;
+        Balde;
+        PiezaA;
+        PiezaB;
+        PiezaC;
+        Fin;
+        Pinicial;
+    ENDPROC
+    
+    PROC C2()
+        Pinicial;
+        Balde;
+        PiezaD;
+        PiezaE;
+        PiezaF;
+        Fin;
+        Pinicial;
+    ENDPROC
+    
+    PROC C3()
+        Pinicial;
+        Balde;
+        PiezaA;
+        PiezaD;
+        PiezaF;
+        Fin;
+        Pinicial;
+    ENDPROC
+    
+    PROC C4()
+        Pinicial;
+        Balde;
+        PiezaB;
+        PiezaE;
+        PiezaC;
+        Fin;
+        Pinicial;
+    ENDPROC
+    
+     PROC Pinicial()
+        MoveJ Inicio,v200,z100,Herramienta1\WObj:=wobj0;
+    ENDPROC
+    
+    PROC Balde()
+        MoveJ Inicio,v200,z100,Herramienta1\WObj:=wobj0;
+        MoveJ Target_10,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_20,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_20_2,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_20_2_2,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_20_2_2_2,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_10_2,v200,z100,Herramienta1\WObj:=wobj0;
+        MoveJ Target_10_2_2,v200,z100,Herramienta1\WObj:=wobj0;
+        MoveL Target_30,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+    ENDPROC
+    PROC PiezaA()
+        MoveJ AATarget_50,v200,z10,Herramienta1\WObj:=Estante;
+        MoveJ Apieza_1_2,v200,z10,Herramienta1\WObj:=A;
+        MoveJ Apieza_1,v200,z10,Herramienta1\WObj:=A;
+        PulseDO DO_02;
+        MoveJ Apieza_2,v50,z10,Herramienta1\WObj:=A;
+        MoveJ Apieza_2_2,v50,z10,Herramienta1\WObj:=A;
+        MoveJ Apieza_2,v50,z10,Herramienta1\WObj:=A;
+        MoveJ Apieza_1_3,v200,z10,Herramienta1\WObj:=A;
+        MoveJ Target_40_2_2_2UP,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2_2,v200,z10,Herramienta1\WObj:=Balde_Piezas;
+        WaitTime 2;
+        PulseDO DO_01;
+    ENDPROC
+    PROC PiezaB()
+        MoveJ AATarget_50,v200,z100,Herramienta1\WObj:=Estante;
+        MoveJ Bpieza_1_2_3,v200,z100,Herramienta1\WObj:=B;
+        MoveJ Bpieza_1_3_3,v200,z100,Herramienta1\WObj:=B;
+        PulseDO DO_02;
+        MoveJ Bpieza_2_4,v50,z10,Herramienta1\WObj:=B;
+        MoveJ Bpieza_2_2_3,v50,z10,Herramienta1\WObj:=B;
+        MoveJ Bpieza_2_4,v50,z10,Herramienta1\WObj:=B;
+        MoveJ Bpieza_1_5,v200,z100,Herramienta1\WObj:=B;
+        MoveJ Target_40_2_2_2UP,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        WaitTime 2;
+        PulseDO DO_01;
+    ENDPROC
+    PROC PiezaC()
+        MoveJ AATarget_50,v200,z100,Herramienta1\WObj:=Estante;
+        MoveJ Cpieza_1_2_3_2,v200,z100,Herramienta1\WObj:=C;
+        MoveJ Cpieza_1_3_3_2,v200,z100,Herramienta1\WObj:=C;
+        PulseDO DO_02;
+        MoveJ Cpieza_2_4_2,v50,z10,Herramienta1\WObj:=C;
+        MoveJ Cpieza_2_2_3_2,v50,z10,Herramienta1\WObj:=C;
+        MoveJ Cpieza_2_4_2,v50,z10,Herramienta1\WObj:=C;
+        MoveJ Cpieza_1_5_2,v200,z100,Herramienta1\WObj:=C;
+        MoveJ Target_40_2_2_2UP,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        WaitTime 2;
+        PulseDO DO_01;
+    ENDPROC
+  
+    PROC PiezaD()
+        MoveJ AATarget_50,v200,z100,Herramienta1\WObj:=Estante;
+        MoveJ Dpieza_1_2_3_2_2,v200,z100,Herramienta1\WObj:=D;
+        MoveJ Dpieza_1_3_3_2_2,v200,z100,Herramienta1\WObj:=D;
+        PulseDO DO_02;
+        MoveJ Dpieza_2_4_2_2,v50,z10,Herramienta1\WObj:=D;
+        MoveJ Dpieza_2_2_3_2_2,v50,z10,Herramienta1\WObj:=D;
+        MoveJ Dpieza_2_4_2_2,v50,z10,Herramienta1\WObj:=D;
+        MoveJ Dpieza_1_5_2_2,v200,z100,Herramienta1\WObj:=D;
+        MoveJ Target_40_2_2_2UP,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        WaitTime 2;
+        PulseDO DO_01;
+    ENDPROC
+    PROC PiezaE()
+        MoveJ AATarget_50,v200,z100,Herramienta1\WObj:=Estante;
+        MoveJ Epieza_1_2_4,v200,z100,Herramienta1\WObj:=E;
+        MoveJ Epieza_1_3_4,v200,z100,Herramienta1\WObj:=E;
+        PulseDO DO_02;
+        MoveJ Epieza_2_5,v50,z10,Herramienta1\WObj:=E;
+        MoveJ Epieza_2_2_4,v50,z10,Herramienta1\WObj:=E;
+        MoveJ Epieza_2_5,v50,z10,Herramienta1\WObj:=E;
+        MoveJ Epieza_1_6,v200,z100,Herramienta1\WObj:=E;
+        MoveJ Target_40_2_2_2UP,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        WaitTime 2;
+        PulseDO DO_01;
+    ENDPROC
+    PROC PiezaF()
+        MoveJ AATarget_50,v200,z100,Herramienta1\WObj:=Estante;
+        MoveJ Fpieza_1_2_4_2,v200,z100,Herramienta1\WObj:=F;
+        MoveJ Fpieza_1_3_4_2,v200,z100,Herramienta1\WObj:=F;
+        PulseDO DO_02;
+        MoveJ Fpieza_2_5_2,v50,z10,Herramienta1\WObj:=F;
+        MoveJ Fpieza_2_2_4_2,v50,z10,Herramienta1\WObj:=F;
+        MoveJ Fpieza_2_5_2,v50,z10,Herramienta1\WObj:=F;
+        MoveJ Fpieza_1_6_2,v200,z100,Herramienta1\WObj:=F;
+        MoveJ Target_40_2_2_2UP,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        WaitTime 2;
+        PulseDO DO_01;
+    ENDPROC
+      
+    PROC Fin()
+        MoveJ Target_40_2_2_2UP,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_30,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_2_3,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_2_3,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_40_3,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveL Target_30_2,v200,z100,Herramienta1\WObj:=Balde_Piezas;
+        MoveJ Target_10_2_2,v200,z100,Herramienta1\WObj:=wobj0;
+        MoveJ Target_20_2_2_2_2,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_20_2_2_3,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_20_2_3,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_20_3,v200,z100,Herramienta1\WObj:=Balde_Banda;
+        MoveJ Target_10_3,v200,z100,Herramienta1\WObj:=Balde_Banda;
+    ENDPROC
+    
+    
+ENDMODULE
