@@ -68,7 +68,12 @@ Para implementar los modelos en el espacio de trabajo y llevar a cabo la simulac
 </p>
 </div>
 
-Para poder llevar a cabo una creacion de las trayectorias de forma correcta que nos evite estar corrigiendo al momento de implementar en el robot real, se realizó una prueba manual donde se dectectaron los problemas que podriamos tener, de tal forma que en la simulación fueran corregidos.
+Con el fin de garantizar la generación precisa de las trayectorias y evitar la necesidad de correcciones en la implementación en el robot real, se llevó a cabo una prueba manual. Durante esta prueba, se identificaron posibles problemas y obstáculos que podrían surgir durante la ejecución de las trayectorias. Esta información se utilizó para realizar ajustes y correcciones en la simulación, de manera que las trayectorias generadas fueran óptimas y las orientaciones de la herramienta se definieran de manera adecuada para llevar a cabo el proceso de forma correcta. Como resultado de esta prueba, se obtuvo una comprensión clara de las trayectorias a implementar y las orientaciones requeridas, lo que facilitó una implementación exitosa en el robot real.
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/manual.png" width="500px" >
+</p>
+</div>
 
 ### Simulación
 ### Código
