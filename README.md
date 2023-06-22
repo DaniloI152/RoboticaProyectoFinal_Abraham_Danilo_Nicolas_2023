@@ -197,7 +197,22 @@ Piezas:
 </div>
 
 A continuación se muestran los videos con las diferentes configuraciones planteadas:
-
+Rutina 1 (Hacer click en la imagen para ver el video):
+<div>
+<p style = 'text-align:center;' align="center">
+<a href="https://youtu.be/cGPyiZcDiRg" target="_blank"><img src="Miniaturas/1.png" width="250px" ></a>
+</p>
+Rutina 2 (Hacer click en la imagen para ver el video):
+<div>
+<p style = 'text-align:center;' align="center">
+<a href="https://youtu.be/ox8l0KbPbbQ" target="_blank"><img src="Miniaturas/2.png" width="250px" ></a>
+</p>
+Rutina 3 (Hacer click en la imagen para ver el video):
+<div>
+<p style = 'text-align:center;' align="center">
+<a href="https://youtu.be/NpmPCioVoyg" target="_blank"><img src="Miniaturas/3.png" width="250px" ></a>
+</p>
+  
 ## Análisis de tiempos
 
 ### Proceso manual
