@@ -48,10 +48,10 @@ Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/estante.png" width="600px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/Estante.png" width="600px" >
 </p>
 </div>
-[Planos de la banda](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/estante.pdf)
+[Planos del estante](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/estante.pdf)
 
 ## Robot Studio
 
