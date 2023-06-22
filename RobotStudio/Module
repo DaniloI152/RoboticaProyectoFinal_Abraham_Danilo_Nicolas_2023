@@ -53,26 +53,28 @@ MODULE Module1
     CONST robtarget Fpieza_2_5_2:=[[45,134.366,72.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget Fpieza_2_2_4_2:=[[45,134.366,52.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget Fpieza_1_6_2:=[[145,134.366,72.302],[0.5,-0.5,-0.5,0.5],[0,1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-   !Variables
+    !Variables
     PERS num selector:=2;
- 
+    !Main para la ejecución de las rutinas  
     PROC Main()
-        Pinicial;
-        WaitDO Ini,1;
-        SetDO DO_03,0;
-        CallByVar "C",selector;
-        !tpreadnum selector, "Elige una configuración de piezas (1-4)";
-        sele;
-        SetDO DO_03,1;
+        Pinicial; !Se lleva el robot a su posición de home
+        WaitDO Ini,1; !Se espera a presionar el botón para dar inicio a la rutina
+        SetDO DO_03,0; !Se apaga el led si previamente estaba prendido
+        CallByVar "C",selector; ! Llama al procedimiento C# mediante una variable de 1 a 4
+        !tpreadnum selector, "Elige una configuración de piezas (1-4)"; !función para seleccionar el procedimiento digitando el número en el flex pendant
+        !sele; !procedimiento para llamar la rutina seleccionada manualmente
+        SetDO DO_03,1; !encender el led cuando la rutina a terminado
     ENDPROC
-    
+
+    !Llama la rutina por medio del selector, que se digita en el flex pendant
     PROC sele()
         IF selector=1 THEN C1; ENDIF
         IF selector=2 THEN C2; ENDIF
         IF selector=3 THEN C3; ENDIF
         IF selector=4 THEN C4; ENDIF
     ENDPROC
-    
+
+    !Creación de los procesos con las diferentes configuraciones de piezas
     PROC C1()
         Pinicial;
         Balde;
@@ -112,7 +114,9 @@ MODULE Module1
         Fin;
         Pinicial;
     ENDPROC
-    
+
+    !Rutinas
+
      PROC Pinicial()
         MoveJ Inicio,v200,z100,Herramienta1\WObj:=wobj0;
     ENDPROC
