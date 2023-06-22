@@ -99,7 +99,7 @@ Después, el robot se dirige hacia el balde ubicado en el piso. En este punto, s
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriaspiezas.png" width="600px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriaspiezas.png" width="500px" >
 </p>
 </div>
 
@@ -111,7 +111,7 @@ La trayectoria de la toma del balde de la banda y dejarlo en el piso (Nombre de 
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriabalde.png" width="600px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriabalde.png" width="500px" >
 </p>
 </div>
 
@@ -119,7 +119,7 @@ La trayectoria final de tomar el balde del piso despues de haber dejado las piez
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriafinal.png" width="600px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriafinal.png" width="500px" >
 </p>
 </div>
 
@@ -137,7 +137,7 @@ Posteriormente, se transporta el balde desde el piso hasta la banda transportado
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/trayectoriafinal.png" width="600px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/codigoconfig.png" width="500px" >
 </p>
 </div>
 
