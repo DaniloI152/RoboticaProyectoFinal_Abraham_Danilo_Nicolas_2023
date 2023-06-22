@@ -123,7 +123,11 @@ La trayectoria final de tomar el balde del piso despues de haber dejado las piez
 </p>
 </div>
 
+Ya con las trayectorias creadas solo se debian crear las rutinas organizandolas en el código.
+
 ### Código
+
+Para el código, con las rutinas previamente creadas, se crearon 
 
 ## Resultados
 
