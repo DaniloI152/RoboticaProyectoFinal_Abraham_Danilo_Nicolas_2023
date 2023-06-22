@@ -163,9 +163,10 @@ Después de alcanzar la posición de "home", se espera a que la salida digital "
 
 Se apaga el LED asociado a la salida digital para asegurarse de que no esté encendido previamente y no interfiera con las siguientes operaciones.
 
-Utilizando la función CallByVar, llama a un procedimiento mediante una variable en este caso el procedimeinto "C#". Esta selección determina una de las cuatro configuraciones de piezas disponibles, identificadas como los procesos C1, C2, C3 y C4. La variable "C#" se utiliza posteriormente en el proceso "sele" para verificar qué configuración ha sido seleccionada.
+Utilizando la función CallByVar, llama a un procedimiento mediante una variable en este caso el procedimeinto "C#". Esta selección determina una de las cuatro configuraciones de piezas disponibles, identificadas como los procesos C1, C2, C3 y C4.  
+Tambein se crea una función manual se utiliza con proceso "sele" para verificar qué configuración ha sido seleccionada al escribirla en el flex pendant, esto fue posible por medio de la función tpreadum.
 
-Dentro del proceso "sele", se utilizan estructuras condicionales (IF) para verificar qué configuración de piezas ha sido seleccionada. Dependiendo de "C#", se ejecutará la rutina correspondiente.
+Dentro del proceso "sele", se utilizan estructuras condicionales (IF) para verificar qué configuración de piezas ha sido seleccionada. Dependiendo del "selector", se ejecutará la rutina correspondiente.
 
 Una vez finalizada la rutina seleccionada, se enciende el LED asociado a la salida digital 3 para indicar que la rutina ha concluido exitosamente.
 Se define la variable selesctor como PERS num, para que permita la modificación con la HMI.
