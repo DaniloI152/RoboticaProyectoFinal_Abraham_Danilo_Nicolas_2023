@@ -141,6 +141,14 @@ Posteriormente, se transporta el balde desde el piso hasta la banda transportado
 </p>
 </div>
 
+Dentro de las rutinas de cada una de las piezas, se configura la activación de las dos salidas digitales por medio de pulsos y una espera de 2 segundos; ya que todas tienen la misma estructura de código, con igual número de ejecución de trayectorias, solo que poseen diferentes configuraciones articulares para poder llegar a las diferentes posciones en el estante, por lo tanto se tendrá la siguiente estructura:
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/rutinapiezas.png" width="500px" >
+</p>
+</div>
+
 ## Resultados
 
 ## Análisis de tiempos
