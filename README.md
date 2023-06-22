@@ -181,18 +181,18 @@ Se define la variable selesctor como PERS num, para que permita la modificación
 
 ## Resultados
 
-A continuación se muestran la herramienta y las piezas utiliadas para el proyecto.
+A continuación se muestran la herramienta y las piezas utiliadas para el proyecto. <br>
 Herramienta:
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/herramientacortada.png" width="300px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/herramientacortada.png" width="250px" >
 </p>
 </div>
 
 Piezas:
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/piezascortadas.png" width="300px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Resultados/piezascortadas.png" width="250px" >
 </p>
 </div>
 
@@ -204,5 +204,5 @@ Piezas:
 ### Proceso automático con el robot
 
 ## Conclusiones
-• El modelado completo del espacio de trabajo es crucial para el éxito del desarrollo del proyecto. Aunque se crean planos que indican la ubicación de los elementos y se generan modelos en 3D con dimensiones precisas, al probar las rutinas nos encontramos con la situación de que las piezas habían sido cambiadas de posición, lo que requería actualizar las posiciones. Para abordar este problema de manera sencilla, se estableció una vinculación entre cada punto de las trayectorias y las piezas correspondientes. De esta forma, al mover la pieza a su ubicación correcta, las trayectorias se ajustaban automáticamente en consecuencia.
+• El modelado completo del espacio de trabajo es crucial para el éxito del desarrollo del proyecto. Aunque se crean planos que indican la ubicación de los elementos y se generan modelos en 3D con dimensiones precisas, al probar las rutinas nos encontramos con la situación de que las piezas habían sido cambiadas de posición, lo que requería actualizar las posiciones. Para abordar este problema de manera sencilla, se estableció una vinculación entre cada punto de las trayectorias y las piezas correspondientes. De esta forma, al mover la pieza a su ubicación correcta, las trayectorias se ajustaban automáticamente en consecuencia. <br>
 • En futuros trabajos, se tiene la intención de llevar a cabo la implementación del HMI (Interfaz Hombre-Máquina) en el flex pendant del laboratorio. Aunque en este proyecto en particular no se logró llevar a cabo la implementación en el robot real, se pudo realizar y probar exitosamente en el entorno de simulación. La implementación del HMI en el flex pendant ofrecerá numerosas ventajas en términos de control y operación del robot. A pesar de no haberse implementado la HMI en el robot real, el proyecto se desarrolló de manera exitosa sin esta funcionalidad. Se logró alcanzar los objetivos planteados y se obtuvieron resultados satisfactorios. La simulación fue una herramienta valiosa que permitió evaluar y validar el rendimiento del sistema en ausencia de la HMI.
