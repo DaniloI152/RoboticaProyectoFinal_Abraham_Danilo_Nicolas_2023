@@ -168,6 +168,7 @@ Utilizando la función CallByVar, llama a un procedimiento mediante una variable
 Dentro del proceso "sele", se utilizan estructuras condicionales (IF) para verificar qué configuración de piezas ha sido seleccionada. Dependiendo de "C#", se ejecutará la rutina correspondiente.
 
 Una vez finalizada la rutina seleccionada, se enciende el LED asociado a la salida digital 3 para indicar que la rutina ha concluido exitosamente.
+Se define la variable selesctor como PERS num, para que permita la modificación con la HMI.
 
 
 <div>
