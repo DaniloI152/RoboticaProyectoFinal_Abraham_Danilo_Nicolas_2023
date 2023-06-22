@@ -22,7 +22,7 @@ brazo inmóvil y solamente al inicio del proceso.<br>
 se pueda identificar el tiempo promedio de alistamiento manual para las combinaciones estudiadas. <br>
 
 ## Diseño de la herramienta y modelos 3D:
-En el diseño de la herramienta, se tomaron en cuenta las dimensiones de las piezas, el balde, la ventosa y el estante, para permitir la ejecución de las rutinas de manera eficiente. Se utilizó el software Inventor para modelar la herramienta y se consideró la opción de fabricarla mediante impresión 3D. Sin embargo, se determinó que para obtener una pieza más resistente y de mayor facilidad de construcción, se utilizarían láminas de MDF de 10mm cortadas con láser. Además, se realizaron cortes en las piezas que se colocarían en el estante utilizando diferentes formas geométricas. 
+En el diseño de la herramienta, se tomaron en cuenta las dimensiones de las piezas, el balde, la ventosa y el estante, para permitir la ejecución de las rutinas de manera eficiente. Se utilizó el software Inventor para modelar la herramienta y se consideró la opción de fabricarla mediante impresión 3D. Sin embargo, se determinó que para obtener una pieza más resistente y de mayor facilidad de construcción, se utilizarían láminas de MDF de 10mm cortadas con láser y pegadas con pegante Pl 285. Además, se realizaron cortes en las piezas que se colocarían en el estante utilizando diferentes formas geométricas. 
 
 <div>
 <p style = 'text-align:center;' align="center">
