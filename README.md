@@ -81,7 +81,7 @@ En la implementación de los elementos en el espacio de trabajo del robot en Rob
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/puntos.png" width="500px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/RobotStudio/puntos.png" width="700px" >
 </p>
 </div>
 
