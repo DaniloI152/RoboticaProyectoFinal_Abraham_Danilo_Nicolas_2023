@@ -42,7 +42,8 @@ Para el modelado de la banda se tomaron sus dimensiones de altura, ancho y largo
 <img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/Banda.png" width="600px" >
 </p>
 </div>
-[Planos de la banda](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/Banda.pdf)
+
+[Planos de la banda](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/banda.pdf)
 
 Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 
@@ -51,6 +52,7 @@ Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 <img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/Estante.png" width="600px" >
 </p>
 </div>
+
 [Planos del estante](https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/estante.pdf)
 
 ## Robot Studio
