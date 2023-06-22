@@ -58,7 +58,7 @@ Se procedio a hacer lo mismo con el estante donde irán posicionadas las piezas
 ## Implementación de las señales digitales
 Para implementar las señales digitales para la instalación y control de la válvula fue necesario abrir el tablero que acompaña al manipulador, donde revisando una de las conexiones hacia un bombillo que se controla por las salidas digitales del robot se obtiene la ubicación dentro de la bornera donde se ubicaría la tierra, con este nodo ubicado se probaron distintos puntos de la bornera con la salida digital 1 y 2 abiertas para comprobar en cuál de estas el voltaje es de 24 V, con las salidas ya ubicadas se insertan los cables de los motores de la válvula dentro del tablero y se realizan las conexiones respectivas para que las salidas controlen el estado de la válvula 5/2, donde la salida 1 se encarga de cerrar el flujo de aire y la salida 2 abrirá el flujo de aire.
 <p style = 'text-align:center;' align="center">
-<img src="Hidraulica/Untitled.png" width="200px" >
+<img src="Hidraulica/válvula.png" width="200px" >
 </p>
 <p>Para la instalación de la válvula se montó esta sobre una placa que a su vez está montada en el robot, el suministro neumático proviene del robot que está conectado al suministro neumático del propio laboratorio, para convertir el aire en vacío se conecta la salida de la válvula a la entrada de un generador de vacío que se encarga de hacer la fuerza de succión de la ventosa, esta parte también se coloca en la placa de montaje pegada al robot, finalmente se conecta la salida del generador a la entrada de la ventosa que está colocada en la herramienta.</p>
 
