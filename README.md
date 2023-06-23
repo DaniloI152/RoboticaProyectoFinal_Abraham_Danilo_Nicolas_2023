@@ -221,6 +221,11 @@ Rutina 3 (Hacer click en la imagen para ver el video):
 <a href="https://youtu.be/NpmPCioVoyg" target="_blank"><img src="Miniaturas/3.png" width="250px" ></a>
 </p>
 
+Se presentaron algunos errores debido a la inercia del balde, ya que al momento de trasladarlo desde la banda transportadora hacia el piso, tendía a seguir en movimiento, lo que ocasionaba que no se posicionara correctamente. Esto se debía a que la agarradera del balde no quedaba paralela al robot, lo que ocasionaba colisiones al momento de dejar las piezas en el balde, como se muestra en el video.
+
+<p style = 'text-align:center;' align="center">
+<a href="https://youtu.be/_4trjIWSPPs" target="_blank"><img src="Miniaturas/error.png" width="250px" ></a>
+</p>
 
 Video Final (Hacer click en la imagen para ver el video):
 
