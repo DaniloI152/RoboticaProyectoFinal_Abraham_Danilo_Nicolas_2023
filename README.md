@@ -230,7 +230,7 @@ Se presentaron algunos errores debido a la inercia del balde, ya que al momento 
 Video Final (Hacer click en la imagen para ver el video):
 
 <p style = 'text-align:center;' align="center">
-<a href="https://youtu.be/rz6y469rJjc" target="_blank"><img src="Miniaturas/miniatura.png" width="500px" ></a>
+<a href="https://youtu.be/aIcxVyV5uZU" target="_blank"><img src="Miniaturas/miniatura.png" width="500px" ></a>
 </p>
 
 ## Análisis de tiempos
