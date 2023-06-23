@@ -1,4 +1,4 @@
-# Proyecto Final Robótica
+<h1 align="center">Proyecto Final Robótica </h1>>
 ### Integrantes: 
 - Danilo Enrique Insuasty Delgado.
 - Abraham Másmela Ramirez.
