@@ -230,6 +230,9 @@ Rutina 3 (Hacer click en la imagen para ver el video):
 Para hacer la comparacion entre el proceso realizado por un robot y un humano utilizando la misma herramienta uno de los miembros del grupo realizo la segundo rutina de manera manual, demorando un total de 56 segundos en completar el ejercicio.
 ### Proceso automático con el robot
 Cuando el robot realiza la tarea el promedio de ejucucion de esta estara en 1 minuto exacto, sin embargo hay una diferencia de tiempo pequeña en funcino de la rutina que se haya ejecutado, donde la primera rutina con el robot en su velocidad normal demora 1:01:02 minutos en ejecutarla en su totalidad desde el inicio en la posicion de home hasta volver a esta misma, para el caso de la segunda rutina tiene un tiempo de 0:59:32 minutos, siendo esta mas rapida por 2 segundos. Al analizar la parte variante de la rutina, siendo esta las piezas que recogera, se tiene que en la primera rutina el robot demorara 39.11 segundos en recoger todas las piezas, para el caso de la rutina 2 este tiempo esta en los 37.26 segundos, esto se puede explicar con que la rutina 2 recoge las piezas de las parte inferior de la estanteria, que esta mas cerca de las posicion donde la herramienta suelta las piezas dentro del balde.
+
+
+
 ## Conclusiones
 • El modelado completo del espacio de trabajo es crucial para el éxito del desarrollo del proyecto. Aunque se crean planos que indican la ubicación de los elementos y se generan modelos en 3D con dimensiones precisas, al probar las rutinas nos encontramos con la situación de que las piezas habían sido cambiadas de posición, lo que requería actualizar las posiciones. Para abordar este problema de manera sencilla, se estableció una vinculación entre cada punto de las trayectorias y las piezas correspondientes. De esta forma, al mover la pieza a su ubicación correcta, las trayectorias se ajustaban automáticamente en consecuencia. <br>
 
