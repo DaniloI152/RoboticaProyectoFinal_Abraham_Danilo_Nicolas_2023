@@ -227,6 +227,8 @@ Se presentaron algunos errores debido a la inercia del balde, ya que al momento 
 <a href="https://youtu.be/_4trjIWSPPs" target="_blank"><img src="Miniaturas/error.png" width="250px" ></a>
 </p>
 
+Se identificó otro error relacionado con la ubicación de la herramienta para soltar las piezas dentro del balde. Al colocar la herramienta a una altura considerable, el material de la ventosa provocaba que las piezas fueran empujadas hacia adelante y cayeran fuera del balde. Para solucionar este problema, se ajustó la posición de la herramienta, acercándola más al balde en altura, aunque esto implicaba sacrificar algunos segundos adicionales de tiempo.
+
 Video Final (Hacer click en la imagen para ver el video):
 
 <p style = 'text-align:center;' align="center">
