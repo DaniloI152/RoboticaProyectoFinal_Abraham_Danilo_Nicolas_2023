@@ -221,6 +221,13 @@ Rutina 3 (Hacer click en la imagen para ver el video):
 <a href="https://youtu.be/NpmPCioVoyg" target="_blank"><img src="Miniaturas/3.png" width="250px" ></a>
 </p>
 
+
+Video Final (Hacer click en la imagen para ver el video):
+
+<p style = 'text-align:center;' align="center">
+<a href="https://youtu.be/rz6y469rJjc" target="_blank"><img src="Miniaturas/miniatura.png" width="250px" ></a>
+</p>
+
 ## Análisis de tiempos
 
 ### Proceso manual
