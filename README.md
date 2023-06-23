@@ -222,6 +222,10 @@ Rutina 3 (Hacer click en la imagen para ver el video):
 <a href="https://youtu.be/NpmPCioVoyg" target="_blank"><img src="Miniaturas/3.png" width="250px" ></a>
 </p>
 
+Al realizar las rutinas 1 y 2, hemos recogido todas las piezas necesarias, lo que nos asegura que tanto las rutinas propuestas como cualquier otra combinación posible pueden llevarse a cabo de manera exitosa. De esta manera, cumplimos con todos los requerimientos del proyecto de forma satisfactoria.
+
+<h4 align="center">Errores </h4>
+
 Se presentaron algunos errores debido a la inercia del balde, ya que al momento de trasladarlo desde la banda transportadora hacia el piso, tendía a seguir en movimiento, lo que ocasionaba que no se posicionara correctamente. Esto se debía a que la agarradera del balde no quedaba paralela al robot, lo que ocasionaba colisiones al momento de dejar las piezas en el balde, esto limita la velocidad a la que se puede realizar la rutina que para este caso utilizamos velocidades de 200, a mayor velocidad el balde se balanceará más, a continuación se muestra en el video.
 
 <p style = 'text-align:center;' align="center">
