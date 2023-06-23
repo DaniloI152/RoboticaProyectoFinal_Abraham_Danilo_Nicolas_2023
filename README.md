@@ -59,7 +59,7 @@ Balde proporcionado por el profesor:
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/tree/main/Herramienta" width="600px" >
+<img src="https://github.com/DaniloI152/RoboticaProyectoFinal_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/balde.png" width="600px" >
 </p>
 </div>
 
